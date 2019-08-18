@@ -1,0 +1,42 @@
+Meine Website: 
+
+https://360web-manager.com
+
+Diese Website wurde mit WordPress erstellt und an einigen stellen selbst oft mit CSS Editiert
+
+
+
+
+//Es sind mehrheitlich kleine änderungen beispielweise eine Schrift Änderung gewesen. (Grösse ausseehen etc.) 
+
+@media (min-width: 901px) {
+.sidebar-fix > div > div > .vc_col-sm-3 { width: 28.23% }
+.sidebar-fix > div > div > .vc_col-sm-9 { width: 71.77% }
+}
+
+.abstand-oben2{
+    margin-top:200px !important;
+}
+.h3-footers{
+font-family: "Open Sans", Arial,sans-serif;
+font-size: 24px;
+font-weight: normal;
+line-height: 1.4;
+margin-bottom: 25px;
+}
+
+.schrift-klein{
+font-family: "Open Sans", Arial,sans-serif;
+font-size: 12px;
+font-weight: normal;
+line-height: 1.4;
+margin-bottom: 25px;
+}
+
+.h2-code{
+font-family: "Open Sans", Arial,sans-serif;
+font-size: 30px;
+font-weight: normal;
+line-height: 1.4;
+margin-bottom: 25px;
+}
