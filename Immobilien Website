@@ -1,0 +1,21 @@
+Immobilien Website Projekt.
+
+http://immo.360web-manager.com 
+
+Diese Website läuft noch als eine Subdomain von meiner Website (www.360WebManager.com)
+
+Dies ist ein projekt an dem ich zurzeit arbeite. Mein Ziel ist es eine gut aussehende Website für Immobilienmakler
+zu erstellen, dass es ermöglich für die Kunden die jeweiligen Immobilien nach Ihren Wünschen zu Filtern. 
+
+
+//Die Filter Anzeige auf der Startseite wurde mit diesem kleinen CSS abschnitt mittig positioniert!
+
+.center {
+    text-align:center;
+}
+.size1{
+font-size: 26px;
+}
+
+//Filter hinzugefügt
+add_filter('fg_post_types', 'myprefix_change_featured_galleries_post_types' );
